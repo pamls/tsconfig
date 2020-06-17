@@ -1,0 +1,14 @@
+# IDE
+.idea/
+.editorconfig
+
+# Packages
+node_modules/
+*.tgz
+
+# Build
+script/
+make.sh
+
+# Development
+.gitattributes
