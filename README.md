@@ -3,26 +3,26 @@
 ## Installation
 
 ```bash
-npm i --save-dev @pamls/tslint-config
+npm i --save-dev @pamls/eslint-config
 ```
 
 ## Integration in TypeScript project
 
-#### Install tslint and tslint configuration
+#### Install eslint and eslint configuration
 ```bash
-npm i --save-dev tslint @pamls/tslint-config
+npm i --save-dev eslint @pamls/eslint-config
 ```
 
 #### Add TSLint configuration
-Add a .tslintrc.json file in the root directory of the project
+Add a .eslint.json file in the root directory of the project
 
 ```json
 {
-    "extends": "@pamls/tslint-config"
+    "extends": "@pamls/eslint-config"
 }
 ```
 
 #### Run the linter
 ```bash
-tslint -c .tslintrc.json src/**/*.ts test/**/*.ts
+tslint -c .eslint.json src/**/*.ts test/**/*.ts
 ```

@@ -8,9 +8,9 @@ if [ $# -eq 1 ]; then
     npm run build
 
     printf '\n################ PUBLISH ################\n'
-    npm publish pamls-tslint-config.tgz --tag latest --access public
+    npm publish pamls-eslint-config.tgz --tag latest --access public
 
-    rm pamls-tslint-config.tgz
+    rm pamls-eslint-config.tgz
 else
     printf 'Help: npm run release -- (<version> | major | minor | patch)'
 fi

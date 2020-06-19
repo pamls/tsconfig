@@ -1,8 +1,8 @@
 {
-    "name": "@pamls/tslint-config",
+    "name": "@pamls/eslint-config",
     "description": "ESLint Configuration for TypeScript",
     "main": "index.js",
-    "version": "0.2.0",
+    "version": "0.2.3",
     "author": "Paul",
     "license": "MIT",
     "engines": {

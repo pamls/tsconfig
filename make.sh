@@ -3,4 +3,4 @@
 # Package
 printf '\n######## PACKAGE TSLINT CONFIGURATION ########\n'
 npm pack --quiet
-mv pamls-tslint-config-*.tgz pamls-tslint-config.tgz
+mv pamls-eslint-config-*.tgz pamls-eslint-config.tgz
