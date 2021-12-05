@@ -2,11 +2,11 @@
     "name": "@pamls/eslint-config",
     "description": "ESLint Configuration for TypeScript",
     "main": "index.js",
-    "version": "0.2.16",
+    "version": "0.2.17",
     "author": "Paul",
     "license": "MIT",
     "engines": {
-        "node": ">=17"
+        "node": ">=14"
     },
     "scripts": {
         "build": "bash make.sh",
