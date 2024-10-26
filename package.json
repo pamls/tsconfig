@@ -1,29 +1,39 @@
 {
-    "name": "@pamls/eslint-config",
-    "description": "ESLint Configuration for TypeScript",
-    "main": "index.js",
-    "version": "0.2.19",
-    "author": "Paul",
-    "license": "MIT",
-    "engines": {
-        "node": ">=14"
-    },
-    "scripts": {
-        "build": "bash make.sh",
-        "lint": "bash script/lint.sh",
-        "release": "bash script/release.sh"
-    },
-    "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.55.0",
-        "@typescript-eslint/parser": "^5.55.0",
-        "eslint": "^8.36.0",
-        "eslint-import-resolver-typescript": "^3.5.3",
-        "eslint-plugin-import": "^2.27.5",
-        "eslint-plugin-prefer-arrow": "^1.2.3",
-        "typescript": "^4.9.5"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/pamls/tslint-config.git"
-    }
+  "name": "@pamls/eslint-config",
+  "description": "ESLint Configuration for TypeScript",
+  "main": "index.js",
+  "version": "0.2.24",
+  "author": "Paul",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "build": "bash make.sh",
+    "lint": "bash script/lint.sh",
+    "release": "bash script/release.sh"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.28.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.28.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pamls/tslint-config.git"
+  }
 }
